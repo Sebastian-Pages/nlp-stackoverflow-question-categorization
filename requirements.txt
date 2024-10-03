@@ -1,0 +1,21 @@
+pandas == 1.5.3
+numpy
+scikit-learn
+seaborn
+ipykernel
+stackapi
+transformers
+tensorflow_hub
+torch
+nltk
+contractions
+wordcloud
+gensim
+pyLDAvis==2.1.2
+
+Jinja2
+mlflow
+tqdm
+pytest
+fastapi
+uvicorn

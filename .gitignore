@@ -1,0 +1,39 @@
+# Ignore temporary files and directories
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.log
+logs/
+
+# Ignore data files
+data/raw/
+data/processed/
+data/external/
+data/legacy/
+legacy/
+
+# Ignore these files
+legacy/
+images/
+data/cache/joblib
+.pytest_cache
+Exemple_Tweets_Feature-extraction_Sentence+Embedding_V1.1.ipynb
+playground.ipynb
+data/cache
+data/models
+# Ignore model checkpoints
+models/checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore MLFlow runs
+mlflow/mlruns/
+data/.DS_Store
