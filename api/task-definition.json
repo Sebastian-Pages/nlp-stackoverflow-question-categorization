@@ -80,5 +80,16 @@
     },
     "registeredAt": "2024-10-10T15:25:28.402Z",
     "registeredBy": "arn:aws:iam::988593203527:root",
-    "tags": []
+    "tags": [],
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                "subnet-0e9a04c68848578e3"
+            ],
+            "securityGroups": [
+                "sg-0b8aec52ae000f195"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    }
 }
