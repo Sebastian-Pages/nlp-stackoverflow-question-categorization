@@ -234,6 +234,12 @@ class TextInput(BaseModel):
     text: str
 
 
+# Default route to check if the API is running
+@app.get("/")
+def read_root():
+    return {"message": "API is running!"}
+
+
 # Prediction endpoint
 @app.post("/predict")
 def predict_tags(data: TextInput):
