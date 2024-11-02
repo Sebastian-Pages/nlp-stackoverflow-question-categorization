@@ -213,7 +213,7 @@ class Tagger:
         # Make prediction using the loaded model
         prediction = self.model.predict_proba(embedded_text)
 
-        threshold = 0.05
+        threshold = 0.175
         y_pred_custom = (prediction >= threshold).astype(int)
         predicted_tags = self.mlb.inverse_transform(y_pred_custom)
 
